@@ -1,0 +1,29 @@
+{
+  "name": "instructions",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/israelvarela/Burger.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/israelvarela/Burger/issues"
+  },
+  "homepage": "https://github.com/israelvarela/Burger#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "config.json": "0.0.4",
+    "express": "^4.17.1",
+    "express-handlebars": "^5.1.0",
+    "gitignore": "^0.6.0",
+    "heroku": "^7.44.0",
+    "mysql": "^2.18.1",
+    "node": "^14.13.0"
+  }
+}
