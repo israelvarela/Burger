@@ -93,5 +93,5 @@ var orm = {
   }
 };
 
-// export orm object for the model (server.js).
+// Export orm object for the model (server.js).
 module.exports = orm;

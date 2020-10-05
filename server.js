@@ -1,6 +1,6 @@
 var express = require("express");
 
-var PORT = process.env.PORT || 8090;
+var PORT = 8080;
 
 var app = express();
 
@@ -19,7 +19,7 @@ app.engine("handlebars", exphbs({ defaultLayout: "main" }));
 app.set("view engine", "handlebars");
 
 // Imports routes and gives the server access to them.
-var routes = require("./controllers/burgers_controllers.js");
+var routes = require("./controllers/burgers_controller.js");
 
 app.use(routes);
 
