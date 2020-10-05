@@ -1,14 +1,14 @@
 .body {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Georgia', 'Lucida Sans Regular', 'Lucida Grande', 'sans-serif';
     background-color: rgb(247, 243, 243);
 }
 
 .pic {
     width: 350px;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 70%;
     animation: rotation 6s infinite linear;
+     
 }
 
 @keyframes rotation {
@@ -38,30 +38,30 @@
 } 
 
  .text {
-    font-family: 'Concert One', sans-serif;
+    font-family: 'Georgia', 'Arial';
     white-space: nowrap;
     color: rgb(235, 19, 19);
     font-size: 80px;
     position: absolute;
     overflow: hidden;
-    top: 50%;
-    left: 50%;
+    top: 20%;
+    left: 30%;
     animation: blinker 1s linear infinite;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
 } 
 
 @keyframes blinker {
-    50% { opacity: 0;}
+    85% { opacity: 20%;}
 }
 
 .add {
-    font-family: 'Amatic SC', cursive;
+    font-family: 'Georgia', cursive;
     font-size: 30px;
 }
 
 h2 {
-    font-family: 'Amatic SC', cursive;
+    font-family: 'Georgia', cursive;
     text-align: center;
 }
 
