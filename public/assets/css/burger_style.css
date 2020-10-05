@@ -1,23 +1,13 @@
 .body {
     font-family: 'Georgia', 'Lucida Sans Regular', 'Lucida Grande', 'sans-serif';
-    background-color: rgb(247, 243, 243);
+    background-color: rgb(247, 247, 247);
 }
 
 .pic {
     width: 350px;
     display: block;
     margin-left: 70%;
-    animation: rotation 6s infinite linear;
      
-}
-
-@keyframes rotation {
-    from {
-        transform: rotate(0deg); 
-    }
-    to {
-        transform: rotate(359deg); 
-    }
 }
 
 .overlay {
@@ -40,7 +30,7 @@
  .text {
     font-family: 'Georgia', 'Arial';
     white-space: nowrap;
-    color: rgb(235, 19, 19);
+    color: rgb(19, 105, 235);
     font-size: 80px;
     position: absolute;
     overflow: hidden;
@@ -50,10 +40,6 @@
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
 } 
-
-@keyframes blinker {
-    85% { opacity: 20%;}
-}
 
 .add {
     font-family: 'Georgia', cursive;
