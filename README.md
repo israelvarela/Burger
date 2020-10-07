@@ -15,7 +15,7 @@ MySQL, ORM, Handlebars, Express, Node
 
 ## App 
 
-
+![Screen Shot 2020-10-06 at 7 09 35 PM](https://user-images.githubusercontent.com/62815477/95272884-314f3580-0807-11eb-90b6-537315a4238b.png)
 
 ## Link to deployed app
 
