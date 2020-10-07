@@ -19,7 +19,7 @@ MySQL, ORM, Handlebars, Express, Node
 
 ## Link to deployed app
 
-[Heroku] (https://immense-wave-85645.herokuapp.com/)
+[Heroku](https://immense-wave-85645.herokuapp.com/)
 
 
 
